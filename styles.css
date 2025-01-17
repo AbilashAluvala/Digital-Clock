@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    background: url("https://img.freepik.com/free-photo/beautiful-golden-field-with-amazing-cloudy_181624-494.jpg?t=st=1737130709~exp=1737134309~hmac=3ba5811706f0038979bf9b370c01aec5cdc23f94ad9e64025906f4fb572cf7f8&w=996");
+    background-size: cover; 
+    overflow: hidden;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+h1{
+    text-align: center;
+}
+.outer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.hms{
+    width:7rem;
+    background: rgb(81, 92, 92);
+    margin:.7rem;
+}
+.hms span{
+    display: block;
+}
+.time{
+    text-align:center;
+    font-size:5rem;
+}
+.text{
+    text-align: center;
+    font-size:  1.2rem;
+    padding:10px;
+    background: rgba(6, 6, 110, 0.697);
+    color: white;
+}
+.ampm{
+    margin:.7rem;
+    width:6rem;
+    margin-top: 6.3rem;
+    text-align: center;
+    font-size:  1.2rem;
+    padding:10px;
+    background: green;
+    color: white;
+}
